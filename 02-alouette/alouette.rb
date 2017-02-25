@@ -13,7 +13,6 @@ class Alouette
 
 
 
-
   # end
   # def verse
   # end
