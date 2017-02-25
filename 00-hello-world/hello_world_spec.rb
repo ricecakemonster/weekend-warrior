@@ -1,7 +1,7 @@
 gem 'minitest', '>= 5.0.0'
 require 'minitest/pride'
 require 'minitest/autorun'
-require_relative 'hello_world1'
+require_relative 'hello_world'
 
 describe "Hello World" do
   it "When given no name, it should greet the world!" do

@@ -1,10 +1,9 @@
 gem 'minitest', '>= 5.0.0'
-# require 'minitest/reporters'
+require 'minitest/reporters'
 require 'minitest/autorun'
 require_relative 'alouette'
-Minitest::Reporters.use! Minitest::Reporters::SpecReporter.new
 
-# Minitest::Reporters.use!
+Minitest::Reporters.use!
 
 describe Alouette do
   describe "lines_for_verse" do
