@@ -38,22 +38,7 @@ class Alouette
     return song
 
   end
-    # verse_block = "Je te plumerai #{@@lines[0]}\n
-    # Je te plumerai #{@@lines[0]}\n
-    # "
 
-
-
-  # def self.lines_for_verse(num)
-  #   print Lines[0...num].reverse
-  # end
 end
 
 
-# print Alouette.lines_for_verse(2)
-print Alouette.sing
-  # end
-  # def verse
-  # end
-  # def sing
-  # end
